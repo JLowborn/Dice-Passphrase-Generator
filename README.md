@@ -1,7 +1,12 @@
-# Dice Password Generator
-A simple password generator based on [EFF dice method](https://www.eff.org/dice). Using a set of approximately 70000 different words, this code generates strong passphrases that are easy to remember, but impossible to guess or crack by any attackers.
+# Dice Passphrase Generator
+  
+A Python-based implementation of the [EFF Dice-Generated Passphrase](https://www.eff.org/dice) method. This tool generates high-entropy passphrases by selecting random words from a curated list of approximately 7,700 unique words. The result is a password that is easy for a human to memorize but computationally "impossible" to crack via brute-force or dictionary attacks.
 
-![Dice Password Generator Logo](https://github.com/JLowborn/Dice-Password-Generator/assets/64245567/74f385b7-50b6-45e6-b3c7-b219aeb9655f)
+## Key Features:
+
+- High Entropy: Uses the gold-standard EFF wordlist for maximum security.  
+- Customizable Length: Choose the number of words based on your required security level.  
+- Privacy-Centric: Runs entirely locally; no data ever leaves your machine.  
 
 ## Usage
 ```
